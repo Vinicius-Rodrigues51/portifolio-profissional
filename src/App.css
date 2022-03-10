@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Forum&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #03001e;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.25rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 2.25rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #53c6eb;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #03001e;
+}
+
+::selection {
+  background-color: #53c6eb;
+  color: #fff;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container-alternative {
+  max-width: 1530px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 12px 24px;
+  background: #53c6eb;
+  border-radius: 6px;
   color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  box-shadow: 0px 4px 24px #53c6eb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.splitter {
+  width: 100%;
+  height: 2px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 520px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    background: #53c6eb;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: 0.3s ease;
   }
 }

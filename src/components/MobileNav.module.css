@@ -1,0 +1,7 @@
+nav ul.navShow {
+  gap: 20px;
+  text-align: center;
+  display: block;
+  padding-top: 40px;
+  overflow-x: none;
+}
