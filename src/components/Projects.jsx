@@ -25,6 +25,7 @@ const Projects = () => {
               <h5>
                 Site de informação de filmes e séries. Desenvolvido consumindo a
                 API do site The movie DB. Ainda em desenvolvimento.
+                (Responsividade ainda não aplicada)
               </h5>
               <div className={styles.iconsProjects}>
                 <svg
@@ -80,8 +81,9 @@ const Projects = () => {
             <div className={`${styles.projectsBox} ${styles.pbTwo}`}>
               <h3>InstaDogs</h3>
               <h5>
-                Instagram para Pets desenvolvido com uso de API feita com
-                wordPress.
+                Projeto final do curso Origamid: "Instagram" para Pets
+                desenvolvido com uso de API feita com wordPress. Possibilitando
+                cadastro e gerenciamento de usuários
               </h5>
               <div className={styles.iconsProjects}>
                 <svg

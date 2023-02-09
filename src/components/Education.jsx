@@ -15,11 +15,11 @@ const Education = () => {
         <Fade left>
           <div className={`${styles.contentBox} ${styles.boxShadowUni}`}>
             <h2 className={`${styles.uniritterBox} ${styles.uniritterBox}`}>
-              Uniritter
+              Unisinos
             </h2>
             <h4>Análise e desenvolvimento de sistemas</h4>
             <div className={`splitter ${styles.splitterUniritter}`}></div>
-            <h5>Trancado</h5>
+            <h5>2023 - Atualmente (Terceiro semestre)</h5>
           </div>
         </Fade>
 
@@ -28,7 +28,7 @@ const Education = () => {
             <h2 className={styles.QIBox}>QI escola técnica</h2>
             <h4>Técnico em informática</h4>
             <div className={`splitter ${styles.splitterQI}`}></div>
-            <h5>2022 - Atualmente</h5>
+            <h5>Trancado</h5>
           </div>
         </Fade>
       </div>
