@@ -19,7 +19,7 @@ const Projects = () => {
       </Fade>
       <div className={styles.projectsGrid}>
         <Fade left>
-          <a href="https://filmapi.netlify.app" target="_blank">
+          <a href="https://movies-api-custom.netlify.app/" target="_blank">
             <div className={`${styles.projectsBox} ${styles.pbOne}`}>
               <h3>Film API</h3>
               <h5>
