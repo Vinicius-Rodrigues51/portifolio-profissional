@@ -21,7 +21,7 @@ const Projects = () => {
         <Fade left>
           <a href="https://movies-api-custom.netlify.app/" target="_blank">
             <div className={`${styles.projectsBox} ${styles.pbOne}`}>
-              <h3>Film API</h3>
+              <h3>Movie API</h3>
               <h5>
                 Site de informação de filmes e séries. Desenvolvido consumindo a
                 API do site The movie DB. Ainda em desenvolvimento.
